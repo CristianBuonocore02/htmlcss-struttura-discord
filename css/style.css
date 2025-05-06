@@ -18,11 +18,30 @@
     background-color: #d9a521;
     border: dashed black;
   
-} 
+}
+
+.blocco-blu {
+  background-color: #080d8c ;
+  width: 100%;
+  height: 250px;
+  padding-top: 25px ;
+  
+}
+
+.quadrato-rosa {
+  border: dashed black;
+  background-color: #ed82ed;
+  margin: 0 auto;
+  max-width: 50%;
+  height: 200px;
+
+}
+
+
+}
 
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-}
