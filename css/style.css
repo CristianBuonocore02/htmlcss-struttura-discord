@@ -68,12 +68,68 @@
 
 .blocco-grigio{
   background-color: #d4d4d4;
-  margin: 25px 0px;
+  margin: 25px 0px 0px 0px;
   padding: 10px 0px;
 }
 
+.quadrato-verde{
+  background-color: #228c23;
+  border: dashed black;
+  height: 500px;
+  width: 100%;
+}
+
+.divisione-qc {
+  max-width: 700rem;
+  margin: 0 auto;
+} 
+
+.blocco-nero{
+  background-color: #000000;
+  padding: 10px 0px;
+}
+
+.quadrato-pesca {
+  border: dashed black;
+  background-color: #f07f7f;
+  width: 30%;
+  height: 250px;
+}
+
+.q1 {
+  border: dashed rgb(255, 255, 255);
+  background-color: #22b3ab;
+  height: 250px;
+  width: 70px;
+
 
 }
+.q2 {
+  border: dashed rgb(255, 255, 255);
+  background-color: #22b3ab;
+  height: 250px;
+  width: 70px;
+
+
+}
+.q3 {
+  border: dashed rgb(255, 255, 255);
+  background-color: #22b3ab;
+  height: 250px;
+  width: 70px;
+
+
+}
+.q4 {
+  border: dashed rgb(255, 255, 255);
+  background-color: #22b3ab;
+  height: 250px;
+  width: 70px;
+
+
+}
+}
+
 
 .navbar {
   display: flex;
@@ -81,6 +137,15 @@
 }
 
 .divisione-quadrati{
+  display: flex;
+  justify-content: center;
+}
+
+.quadrato-colonne {
+  display: flex;
+}
+
+.divisione-qc {
   display: flex;
   justify-content: center;
 }
