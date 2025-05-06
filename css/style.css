@@ -80,7 +80,7 @@
 }
 
 .divisione-qc {
-  max-width: 700rem;
+  max-width: 700px;
   margin: 0 auto;
 } 
 
@@ -100,7 +100,7 @@
   border: dashed rgb(255, 255, 255);
   background-color: #22b3ab;
   height: 250px;
-  width: 70px;
+  width: 25%;
 
 
 }
@@ -108,7 +108,7 @@
   border: dashed rgb(255, 255, 255);
   background-color: #22b3ab;
   height: 250px;
-  width: 70px;
+  width: 25%;
 
 
 }
@@ -116,7 +116,7 @@
   border: dashed rgb(255, 255, 255);
   background-color: #22b3ab;
   height: 250px;
-  width: 70px;
+  width: 25%;
 
 
 }
@@ -124,7 +124,7 @@
   border: dashed rgb(255, 255, 255);
   background-color: #22b3ab;
   height: 250px;
-  width: 70px;
+  width: 25%;
 }
 
 .blocco-nero2{
@@ -132,13 +132,15 @@
   border-bottom: solid white;
   background-color: #000000;
   width: 100%;
-  padding: 10px 15%;
+  padding: 10px ;
   
 }
 
 .footer-info {
   background-color: #23c8c0;
   padding: 10px 0px;
+  width: 700px;
+  margin: 0 auto;
 }
 
 .foot-logo{
@@ -168,6 +170,7 @@
 
 .quadrato-colonne {
   display: flex;
+  width: 70%;
 }
 
 .divisione-qc {
