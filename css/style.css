@@ -125,9 +125,34 @@
   background-color: #22b3ab;
   height: 250px;
   width: 70px;
-
-
 }
+
+.blocco-nero2{
+  border-top: solid white;
+  border-bottom: solid white;
+  background-color: #000000;
+  width: 100%;
+  padding: 10px 15%;
+  
+}
+
+.footer-info {
+  background-color: #23c8c0;
+  padding: 10px 0px;
+}
+
+.foot-logo{
+  background-color: #ffbfca;
+  border: dashed black;
+  padding: 5px;
+}
+
+.foot-bottom{
+  background-color: #ffbfca;
+  border: dashed black;
+  padding: 5px;
+}
+
 }
 
 
@@ -148,4 +173,9 @@
 .divisione-qc {
   display: flex;
   justify-content: center;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
 }
