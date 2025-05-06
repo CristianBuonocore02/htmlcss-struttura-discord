@@ -37,8 +37,10 @@
 
 }
 
-#divisione-quadrati{
-  margin: 25px 0px;
+.divisione-quadrati{
+  margin: 25px auto;
+  max-width: 700px;
+  
 }
 
 .blocco-bianco {
@@ -51,47 +53,24 @@
 .quadrato-celeste {
   border: dashed black;
   background-color: #1e91fc;
-  margin: 0 auto;
-  /* max-width: 20px; */
   height: 250px;
-  width: 400px;
-  margin-right:  0px;
+  width: 60%;
+  
 }
 
 .quadrato-rosa-chiaro {
   border: dashed black;
   background-color: #ffbfca;
-  margin: 0 auto;
-  margin-left: 0px;
-  width: 200px;
+  width: 40%;
   height: 250px;
 }
 
-#quadrato-celeste {
-  border: dashed black;
-  background-color: #1e91fc;
-  margin: 0 auto;
-  /* max-width: 20px; */
-  height: 250px;
-  width: 400px;
-  margin-left:  0px;
-}
-
-#quadrato-rosa-chiaro {
-  border: dashed black;
-  background-color: #ffbfca;
-  margin: 0 auto;
-  margin-right: 0px;
-  width: 200px;
-  height: 250px;
-}
 
 .blocco-grigio{
   background-color: #d4d4d4;
   margin: 25px 0px;
   padding: 10px 0px;
 }
-
 
 
 }
@@ -101,7 +80,7 @@
   justify-content: space-between;
 }
 
-#divisione-quadrati{
+.divisione-quadrati{
   display: flex;
   justify-content: center;
 }
