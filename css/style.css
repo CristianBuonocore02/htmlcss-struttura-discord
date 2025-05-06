@@ -1,0 +1,28 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.debug {
+
+  .bg-header {
+    background-color:#acd7e6;
+    width: 100%;
+    padding: 10px 15%;
+    
+  }
+ 
+  .navbar {
+    
+    background-color: #d9a521;
+    border: dashed black;
+  
+} 
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+}
